@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterui/splash.dart';
 import 'login_screen.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         primaryColor: Color(0XFFcacfcc),
       ),
-      home: LoginPage(),
+      home: Splash(),
     );
   }
 }
